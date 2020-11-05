@@ -10,3 +10,11 @@ EnumExtractor.exe DLL_FILE [ENUM_FILTER]
 
 ```
 
+
+Example
+```
+EnumExtractor.exe Assembly-CSharp.dll > out.json
+
+EnumExtractor.exe Assembly-CSharp.dll Jackpot. > out.json
+
+```

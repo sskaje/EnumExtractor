@@ -10,7 +10,7 @@ namespace EnumExtractor
 
         static void Usage()
         {
-            Console.WriteLine("Usage: {0} DLL_FILE ENUM_FILTER", Environment.GetCommandLineArgs()[0]);
+            Console.WriteLine("Usage: {0} DLL_FILE [ENUM_FILTER]", System.AppDomain.CurrentDomain.FriendlyName);
             System.Environment.Exit(1);
         }
 
